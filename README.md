@@ -12,11 +12,13 @@ The application will spin up as localhost:8080
 
 API endpoints exposed :
 
-1. GET /product
-  Query Params: search
-                 page
-                 pageSize                 
-Sample API Request:  http://localhost:8080/product?search=Apple&page=3&pageSize=2 
+1. GET /product</br>
+  Query Params: </br>
+  search</br>
+                 page</br>
+                 pageSize</br>
+                 
+Sample API Request:  http://localhost:8080/product?search=Apple&page=3&pageSize=2</br> 
 Sample API Response: 
       [
   {
@@ -38,9 +40,10 @@ Sample API Response:
     }
   }
 ]
-
-2. POST /product
-  Sample API call: http//localhost:8080/product
+</br>
+</br>
+2. POST /product</br>
+  Sample API call: http//localhost:8080/product</br>
    Request Body : 
     {
    "name": "Apple MacBook Pro 29",
@@ -50,9 +53,9 @@ Sample API Response:
       "cpu model" : "intel core i9",
       "Hard disk size": "1 TB"
    }
-}
+}</br>
 
-Sample API Response: 
+Sample API Response:
 {
   "id": "ff808181932badb60196eee71a785026",
   "name": "Apple MacBook Pro 29",
@@ -62,18 +65,16 @@ Sample API Response:
     "cpu model": "intel core i9",
     "Hard disk size": "1 TB"
   }
-}
+}</br></br>
 
-3. DELETE /product/{id}
-  Sample API call : http//localhost:8080/product/ff808181932badb60196eee71a785026
+3. DELETE /product/{id}</br>
+  Sample API call : http//localhost:8080/product/ff808181932badb60196eee71a785026</br>
 
   Sample API response : 
   {
   "message": "Object with id = ff808181932badb60196eee71a785026 has been deleted.",
   "error": null
-}
-
-
+  }
 
 Notes about the project :
 
