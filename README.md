@@ -87,5 +87,6 @@ Notes about the project :
 7. Special care has been taken to enhance extensibility and maintainability if more categories of products are added.
 8. OOAD and Factory Design Pattern are used in the Project.
 9. Necessary Exception Handling is added wherever required.
-10. Apt Status Codes are returned for all the endpoints in case of a Bad Request or a 404 Not Found.
+10. Appropriate Status Codes are returned for all the endpoints in case of a Bad Request or a 404 Not Found.
+11. REST API naming conventions have been followed
    
